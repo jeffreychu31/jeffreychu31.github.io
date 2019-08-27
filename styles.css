@@ -1,0 +1,14 @@
+@charset "utf-8";
+	.rectangle
+{
+	background : #000000;
+	background : rgba(0, 0, 0, 1);
+	border-radius : 0px;
+	-moz-border-radius : 0px;
+	-webkit-border-radius : 0px;
+}
+
+    .top_buttons
+{
+    font-family: futura;
+}
