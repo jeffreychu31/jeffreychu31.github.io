@@ -2,10 +2,9 @@
 <html lang="en-US">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head> 
-        
-        <title>JeffreyChuPortfolioHome</title>
+        <title>JeffreyChuPortfolioAbout</title>
         <style>
-          @import url('https://fonts.googleapis.com/css?family=Hind:300,700&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Hind:300|Montserrat:500&display=swap');
             html{
                 position:fixed;
                 top:0;
@@ -32,7 +31,9 @@
                 width:100%;
             }
             
-            #bg{
+          
+            
+             #bg{
                 position:fixed;
                 top:0;
                 bottom:0;
@@ -41,8 +42,8 @@
                 min-width:100%;
                 height: 100%;
                 z-index: -2;
+                opacity: 0.1;
             }
-          
         </style>
     </head>
     <body>
@@ -57,54 +58,47 @@
                 }
             
             li {
-                float:left;
+                float: left;
                 }
 
             li a {
                 display: block;
-                 font-family: 'Hind', sans-serif;
+                font-family: 'Hind', sans-serif;
                 font-size: 18pt; 
                 color: white;
                 text-align: center;
                 padding: 14px 14px;
                 text-decoration: none;
                 }
-            #myname{
-                 font-family: 'Hind', sans-serif;
-                color: white;
-                font-size:70pt;
+            #abt{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 26pt; 
+                color: dimgray;
+                text-align: left;
                 position: absolute;
-                bottom: 70px;
-                left: 230px;
-            } 
-            #uiux{
-                 font-family: 'Hind', sans-serif;
-                color: white;
-                font-size: 50pt;
-                position: absolute;
-                bottom: 20px ;
-                left: 318px;
+                left: 50px;
+                top: 27%;
+                width: 100%;
             }
-        
         </style>
         
         <!-- NAV BAR -->
              <ul>
                  <li><a href="#news">HOME</a></li>
                  <li><a href="#contact">ABOUT</a></li>
-                 <li><a href="#about">PROJECTS</a></li>
+                 <li><a href="#about">PORTFOLIO</a></li>
                  <li><a href="#news">CONTACT</a></li>
              </ul>
         <div class = "blackbar">
             <img src = "https://github.com/jeffreychu31/portfolio/blob/master/Asset4@2x_opt.png?raw=true">
         </div>
-        <div>
+         <div>
             <img id = "bg" src = "https://github.com/jeffreychu31/portfolio/blob/master/me_bg.png?raw=true"/>
-                    <h1 id = "myname">JEFFREY CHU</h1> 
-            <h2 id = "uiux">UI / UX DESIGN</h2>
+                    <div id = "abt">
+                    <p>Originally from West Covina, <br> California, I am currently a fourth year <br> undergraduate  student at the University <br> of  California, San Diego. <br> <br>I am on my way to acquiring <br>my Bachelor of Science in <br>Cognitive Science, specializing <br> in Design and Interaction.</p>
         </div>
+            </div>
         
-        <!-- HEADERS -->
-       
+        
     </body>
 </html>
