@@ -1,14 +1,73 @@
-@charset "utf-8";
-	.rectangle
-{
-	background : #000000;
-	background : rgba(0, 0, 0, 1);
-	border-radius : 0px;
-	-moz-border-radius : 0px;
-	-webkit-border-radius : 0px;
+           html{
+                position:fixed;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+            }
+           
+            div.blackbar{
+                position:fixed;
+                left:0px;
+                top:0px;
+                z-index:-1;
+                height:70px;
+                width:100%;
+            }
+            
+            div.blackbar img{
+                position:fixed;
+                left:0px;
+                top:0px;
+                z-index:-1;
+                height:70px;
+                width:100%;
+            }
+            
+            #bg{
+                position:fixed;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                min-width:100%;
+                height: 100%;
+                z-index: -2;
 }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                }
+            
+            li {
+                float: left;
+                }
 
-    .top_buttons
-{
-    font-family: futura;
-}
+            li a {
+                display: block;
+                font-family: futura;
+                font-size: 16pt; 
+                color: white;
+                text-align: center;
+                padding: 14px 14px;
+                text-decoration: none;
+                }
+            #myname{
+                font-family: futura;
+                color: white;
+                font-size:70pt;
+                position: absolute;
+                bottom: 70px;
+                left: 170px;
+            } 
+            #uiux{
+                font-family: futura;
+                color: white;
+                font-size: 50pt;
+                position: absolute;
+                bottom: 20px ;
+                left: 240px;
+            }
+  
